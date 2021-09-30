@@ -1,3 +1,8 @@
 public class Principal{
-    public void main(Sr)
+    public static void main(String[] agrs) {
+        
+        Funcionario f=new Funcionario();
+        f.setNome("Juliana");
+        System.out.println(f.getNome());
+    }
 }

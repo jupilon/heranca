@@ -18,13 +18,16 @@ public class Funcionario {
         return this.CPF;
     }
 
-    public void setSalario(double Salario){
+    public void setSalario(double salario){
         this.salario=salario;
     }
     public double getSalario(){
         return this.salario;
     }
-    public void getDepartamento(String Departamento){
-        return this.Departamento;
+    public void getDepartamento(String departamento){
+        this.departamento=departamento;
+    }
+    public String getDepartamento(){
+        return this.departamento;
     }
 }
